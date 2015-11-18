@@ -16,7 +16,7 @@ if __name__ == "__main__":
     usuario = User.User("root","123456")
     folder = Ifolder.FolderProxy(usuario,type)
     folder.do_something()
-    usuario.print_all()
+    
 
     
    
